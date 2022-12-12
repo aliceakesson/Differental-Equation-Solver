@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+    color: white; 
+    margin: 0 auto; 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    width: 50%; 
+    margin: 0 auto;
+    position: absolute; 
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -60%);
+}
+
+#equationInput {
+    padding: 30px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+#equationInput input { 
+    padding: 20px;
+    width: 90%;
+    margin: auto; 
+    font-size: 30px;
+}
